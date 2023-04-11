@@ -1,6 +1,6 @@
 # main.py
 def main():
-    with open('led.py', 'r') as f:
+    with open('common/mqtt.py', 'r') as f:
         exec(f.read())
 
 
